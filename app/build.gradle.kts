@@ -136,10 +136,6 @@ android {
 
         // For Dagger injected instrumentation tests in app module
         testInstrumentationRunner = "app.aaps.runners.InjectedTestRunner"
-
-        ndk {
-            abiFilters 'armeabi-v7a', 'arm64-v8a'
-        }
     }
 
     flavorDimensions.add("standard")
